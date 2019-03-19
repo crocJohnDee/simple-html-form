@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <fieldset>
+      <legend>Your Details</legend>
+
+      <form action="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required="required" />
+
+        <br />
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required="required" />
+      </form>
+    </fieldset>
+
+    <fieldset>
+      <legend>Your Review</legend>
+
+      How did you hear about us?
+      <select name="platfroms">
+        <option value="Facebook">Facebook</option>
+        <option value="Twitter">Twitter</option>
+        <option value="Instagram">Instagram</option>
+        <option value="Bakery">The Bakery</option>
+      </select>
+
+      <br />
+
+      <p>Would you visit again?:</p>
+      <input id="yes" type="radio" name="visit" value="y" />
+      <label for="yes">yes</label>
+      <input id="no" type="radio" name="visit" value="m" />
+      <label for="no">no</label>
+      <input id="maybe" type="radio" name="visit" value="m" />
+      <label for="maybe">maybe</label>
+
+      <br />
+      <br />
+
+      comments:
+      <br />
+      <textarea name="comment" id="comments" cols="30" rows="10"></textarea>
+
+      <br />
+      <br />
+
+      <input
+        type="checkbox"
+        id="updates"
+        name="updates"
+        value="updates"
+        checked
+      />
+      <label for="updates">Sign me up for email updates</label>
+
+      <br />
+
+      <input type="submit" value="Submit" />
+    </fieldset>
+  </body>
+</html>

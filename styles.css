@@ -1,0 +1,13 @@
+fieldset {
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+#name {
+  margin-bottom: 3px;
+}
+
+textarea {
+  resize: none;
+}
